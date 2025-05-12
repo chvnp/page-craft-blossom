@@ -1,0 +1,135 @@
+
+import { Project } from "../types/project";
+
+export const projectData: Project[] = [
+  {
+    id: "1",
+    client: "Acme Corp",
+    name: "Alpha",
+    clientPartner: "John Smith",
+    deliveryLead: "Alice Johnson",
+    startDate: "2025-01-01",
+    endDate: "2025-06-30",
+    eomgemHealth: "red",
+    rerireHealth: "red",
+    deliveryHealth: "green",
+    talentHealth: "green"
+  },
+  {
+    id: "2",
+    client: "Globex Corporation",
+    name: "Beta",
+    clientPartner: "Enbry White",
+    deliveryLead: "Robert Williams",
+    startDate: "2025-02-01",
+    endDate: "2025-07-30",
+    eomgemHealth: "red",
+    rerireHealth: "amber",
+    deliveryHealth: "green",
+    talentHealth: "green"
+  },
+  {
+    id: "3",
+    client: "Soylent Corp",
+    name: "Gamma",
+    clientPartner: "Michael Johnson",
+    deliveryLead: "Sophia Brown",
+    startDate: "2025-03-01",
+    endDate: "2025-08-31",
+    eomgemHealth: "red",
+    rerireHealth: "red",
+    deliveryHealth: "green",
+    talentHealth: "green"
+  },
+  {
+    id: "4",
+    client: "Umbrella Corporation",
+    name: "Delta",
+    clientPartner: "John Smith",
+    deliveryLead: "Lucas Miller",
+    startDate: "2025-04-01",
+    endDate: "2025-09-30",
+    eomgemHealth: "red",
+    rerireHealth: "green",
+    deliveryHealth: "amber",
+    talentHealth: "green"
+  },
+  {
+    id: "5",
+    client: "Initech",
+    name: "Epsilon",
+    clientPartner: "Patricia Martinez",
+    deliveryLead: "James Davis",
+    startDate: "2025-05-01",
+    endDate: "2025-10-31",
+    eomgemHealth: "green",
+    rerireHealth: "amber",
+    deliveryHealth: "green",
+    talentHealth: "green"
+  },
+  {
+    id: "6",
+    client: "Hooli",
+    name: "Zeta",
+    clientPartner: "David Brown",
+    deliveryLead: "Emma Taylor",
+    startDate: "2025-06-01",
+    endDate: "2025-11-30",
+    eomgemHealth: "red",
+    rerireHealth: "amber",
+    deliveryHealth: "green",
+    talentHealth: "green"
+  },
+  {
+    id: "7",
+    client: "Stark Industries",
+    name: "Eta",
+    clientPartner: "Jessica Davis",
+    deliveryLead: "Henry Wilson",
+    startDate: "2025-07-01",
+    endDate: "2025-12-31",
+    eomgemHealth: "amber",
+    rerireHealth: "red",
+    deliveryHealth: "green",
+    talentHealth: "green"
+  },
+  {
+    id: "8",
+    client: "Wayne Enterprises",
+    name: "Theta",
+    clientPartner: "Rebecca Thomas",
+    deliveryLead: "Oliver Martinez",
+    startDate: "2025-08-01",
+    endDate: "2026-01-31",
+    eomgemHealth: "green",
+    rerireHealth: "red",
+    deliveryHealth: "amber",
+    talentHealth: "green"
+  },
+  {
+    id: "9",
+    client: "Tyrell Corporation",
+    name: "Iota",
+    clientPartner: "Mary Jones",
+    deliveryLead: "Charlotte Hernandez",
+    startDate: "2025-09-01",
+    endDate: "2026-02-28",
+    eomgemHealth: "green",
+    rerireHealth: "green",
+    deliveryHealth: "green",
+    talentHealth: "green"
+  },
+  {
+    id: "10",
+    client: "Cyberdyne Systems",
+    name: "Kappa",
+    clientPartner: "Christopher Moore",
+    deliveryLead: "Liam Clark",
+    startDate: "2025-10-01",
+    endDate: "2026-03-31",
+    eomgemHealth: "green",
+    rerireHealth: "green",
+    deliveryHealth: "green",
+    talentHealth: "green"
+  }
+];
