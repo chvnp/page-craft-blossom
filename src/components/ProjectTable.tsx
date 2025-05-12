@@ -31,6 +31,15 @@ const ProjectTable: React.FC<ProjectTableProps> = ({ projects }) => {
     }
   };
 
+  // Function to format currency
+  const formatCurrency = (amount: number) => {
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+      maximumFractionDigits: 0
+    }).format(amount);
+  };
+
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
@@ -42,6 +51,7 @@ const ProjectTable: React.FC<ProjectTableProps> = ({ projects }) => {
             <th className="py-3 px-4 text-left">Delivery Lead</th>
             <th className="py-3 px-4 text-left">Start Date</th>
             <th className="py-3 px-4 text-left">End Date</th>
+            <th className="py-3 px-4 text-right">Budget Allocated</th>
             <th className="py-3 px-4 text-center">Eomgem Health</th>
             <th className="py-3 px-4 text-center">Rerire Health</th>
             <th className="py-3 px-4 text-center">Delivery Health</th>
@@ -57,6 +67,7 @@ const ProjectTable: React.FC<ProjectTableProps> = ({ projects }) => {
               <td className="py-3 px-4">{project.deliveryLead}</td>
               <td className="py-3 px-4">{formatDate(project.startDate)}</td>
               <td className="py-3 px-4">{formatDate(project.endDate)}</td>
+              <td className="py-3 px-4 text-right">{formatCurrency(project.budgetAllocated)}</td>
               <td className="py-3 px-4"><StatusIndicator status={project.eomgemHealth} /></td>
               <td className="py-3 px-4"><StatusIndicator status={project.rerireHealth} /></td>
               <td className="py-3 px-4"><StatusIndicator status={project.deliveryHealth} /></td>

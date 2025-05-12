@@ -9,6 +9,7 @@ export interface Project {
   deliveryLead: string;
   startDate: string;
   endDate: string;
+  budgetAllocated: number; // Added new field
   eomgemHealth: HealthStatus;
   rerireHealth: HealthStatus;
   deliveryHealth: HealthStatus;
